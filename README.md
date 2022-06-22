@@ -18,3 +18,13 @@ The rest will be easy to understand!
   unban    
   usdtobtc <br />
   version   
+
+# **Planned Features for the rewrite**
+
+Double the amount of commands, including useful commands
+
+Economy/Some kind of minigame
+
+More interactivity and customizability
+
+Add general bot stuff, including public hosting (?)
