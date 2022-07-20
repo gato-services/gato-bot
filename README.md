@@ -1,4 +1,4 @@
-# **Gato Bot is currently being rewritten, everything here is NOT final!**
+# **Gato Bot Next Gen Beta 1**
 
 **Usage:** <br />
 Install Python 3 if it is not installed already <br />
@@ -9,6 +9,7 @@ Run `gato-bot.py` <br />
 The rest will be easy to understand!
 
 **Current Features:** <br />
+  avatar <br />
   ban <br />
   coinflip <br />
   help <br />
@@ -19,12 +20,12 @@ The rest will be easy to understand!
   usdtobtc <br />
   version   
 
-# **Planned Features for the rewrite**
+# **Changelog**
 
-Double the amount of commands, including useful commands
+Added avatar command
 
-Economy/Some kind of minigame
+Made most commands use embeds instead of codeblocks/raw text
 
-More interactivity and customizability
+Added changeable prefix and status
 
-Add general bot stuff, including public hosting (?)
+`idk if ill ever work on this again, but i might make a beta 2`
