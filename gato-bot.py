@@ -17,9 +17,13 @@ VERSION = os.getenv("VERSION")
 PREFIX = os.getenv("PREFIX")
 STATUS = os.getenv("STATUS")
 
-client = Client() # Grab token from .env, command prefix and activity
+intents = discord.Intents.all()
+intents.members = True
+
+client = Client(intents=intents) # Grab token from .env, command prefix and activity
 b = commands.Bot(
     command_prefix = f'{PREFIX}',
+    intents=intents,
     activity = Activity(type=ActivityType.playing, name=f'{STATUS}')
 )
 
